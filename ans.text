@@ -1,0 +1,2 @@
+git pull fails and shows merge conflicts when the 
+same file is updated  at both local repo and remote .
