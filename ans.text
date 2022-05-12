@@ -1,6 +1,7 @@
-git pull fails and shows merge conflicts when the 
-same file is updated  at both local repo and remote .
-
-Though git pull automatically resolves conflicts on its own but sometimes when 
-you change the same line at both ends (local and remote repo) you'll get merge conflicts 
-so , just delete the heads at the local file and change , and commit .
+though git pull automatically resolves merge
+conflicts in most cases , but it fails to do so when you have made 
+changes in the same line / same part of the code at both local and 
+remote repo . so , in that case , git pull throws merge conflict
+error and you'll need to resolve it deleting the conflict markers 
+and making changes in the local file such that it doesn't 
+overlap with the change in remote repo and finally perform git pull
